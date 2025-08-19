@@ -8,40 +8,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
-    /* Variables CSS (requisito) */
     :root{
-      --main: #2b6cb0;   /* azul */
-      --text: #1f2937;   /* gris oscuro */
-      --soft: #f1f5f9;   /* gris claro */
-      --border: #cbd5e1; /* gris bordes */
+      --main: #2b6cb0; 
+      --text: #1f2937;  
+      --soft: #f1f5f9;  
+      --border: #cbd5e1; 
     }
-
-    /* Herencia: body define fuente y color */
     body{
       font-family: 'Inter', Arial, sans-serif;
-      color: var(--text);          /* color de texto (requisito) */
+      color: var(--text);          
       background: #ffffff;
       margin: 0;
-      font-size: 16px;             /* tamaño base */
+      font-size: 16px;             
       line-height: 1.5;
     }
 
     .page{ width: 900px; max-width: 95%; margin: 16px auto; }
 
     .header{
-      background: #e0f2fe;             /* fondo de div (requisito) */
-      border: 1px solid var(--border); /* borde */
+      background: #e0f2fe;          
+      border: 1px solid var(--border);
       padding: 16px;
       margin-bottom: 16px;
     }
 
     h1{ margin: 0 0 6px; color: var(--main); }
-    h2{ margin: 18px 0 8px; font-size: 20px; } /* cambio tamaño de fuente */
+    h2{ margin: 18px 0 8px; font-size: 20px; } 
 
     .photo{
-      width: 140px; height: 140px;      /* tamaño imagen (requisito) */
+      width: 140px; height: 140px;     
       object-fit: cover;
-      border: 3px solid var(--main);    /* borde */
+      border: 3px solid var(--main);  
       border-radius: 8px;
       display: block; margin: 8px 0;
     }
@@ -55,7 +52,7 @@
     ul{ margin: 6px 0 0 18px; }
     li{ margin: 4px 0; }
 
-    /* Barras de porcentaje simples */
+    /* porcentajes */
     .bar{
       height: 10px;
       background: var(--soft);
@@ -68,7 +65,7 @@
       display: block;
       height: 100%;
       background: var(--main);
-      width: 50%; /* se cambia inline */
+      width: 50%; 
     }
 
     a{ color: var(--main); text-decoration: none; }
@@ -80,90 +77,95 @@
 <body>
   <div class="page">
 
-    <!-- Header -->
+    <!-- informacion -->
     <div class="header">
       <h1>Andrea Lizbeth Torres Arana</h1>
-      <p>Informatics Engineering Student — University of Guadalajara</p>
+      <p>Informatics Engineering Student — University Center for Exact Sciences and Engineering - University of Guadalajara</p>
       <img class="photo" src="andrea.jpg" alt="Profile photo" />
-      <p>Motivated 7th-semester student interested in web development, databases, and UI/UX basics.</p>
+      <p>Motivated 7th-semester student interested in web development, databases, application creation.</p>
     </div>
 
-    <!-- Contact -->
+    <!-- Contacto -->
     <div class="box">
       <h2>Contact</h2>
       <ul>
         <li><strong>Phone:</strong> +52 33 1637 7769</li>
-        <li><strong>Age:</strong> 22</li>
+        <li><strong>Age:</strong> 20</li>
         <li><strong>Nationality:</strong> Mexican</li>
         <li><strong>Email:</strong> andrea.torres5590@alumnos.udg.mx</li>
-        <li><strong>Social:</strong> <a href="#">GitHub</a> · <a href="#">LinkedIn</a></li>
+        <li><strong>Social:</strong> <a href="https://github.com/AndreaTorresArana">GitHub</a></li>
       </ul>
     </div>
 
-    <!-- Education -->
+    <!-- Educacion -->
     <div class="box">
       <h2>Education</h2>
       <ul>
-        <li><strong>B.S. in Informatics Engineering</strong> — University of Guadalajara (7th semester). <em>2025–present</em></li>
-        <li><strong>High School Diploma</strong> — Preparatoria de Jalisco. <em>2022</em></li>
-        <li><strong>Technical Certificate</strong> — Basic Programming. <em>2020</em></li>
+        <li><strong>B.S. in Informatics Engineering</strong> — University Center for Exact Sciences and Engineering -  University of Guadalajara (7th semester). <em>2022–present</em></li>
+        <li><strong>High School Diploma</strong> — Preparatory no.3. <em>2022</em></li>
       </ul>
     </div>
 
-    <!-- Skills -->
+    <!-- habilidades -->
     <div class="box">
       <h2>Skills</h2>
-      <p>HTML (90%)</p>
-      <div class="bar"><span style="width: 90%;"></span></div>
-
-      <p>CSS (80%)</p>
-      <div class="bar"><span style="width: 80%;"></span></div>
-
-      <p>JavaScript (60%)</p>
+      <p>HTML (60%)</p>
       <div class="bar"><span style="width: 60%;"></span></div>
 
-      <p>Problem Solving (75%)</p>
-      <div class="bar"><span style="width: 75%;"></span></div>
+      <p>C++ (70%)</p>
+      <div class="bar"><span style="width: 70%;"></span></div>
+
+      <p>JavaScript (10%)</p>
+      <div class="bar"><span style="width: 10%;"></span></div>
+
+      <p>C (90%)</p>
+      <div class="bar"><span style="width: 90%;"></span></div>
     </div>
 
     <!-- Software -->
     <div class="box">
       <h2>Software</h2>
-      <p>VS Code (90%)</p>
-      <div class="bar"><span style="width: 90%;"></span></div>
-
-      <p>Git & GitHub (70%)</p>
+      <p>VS Code (70%)</p>
       <div class="bar"><span style="width: 70%;"></span></div>
 
-      <p>Figma (65%)</p>
-      <div class="bar"><span style="width: 65%;"></span></div>
+      <p>Git & GitHub (50%)</p>
+      <div class="bar"><span style="width: 50%;"></span></div>
 
-      <p>Excel (80%)</p>
-      <div class="bar"><span style="width: 80%;"></span></div>
+      <p>canva (70%)</p>
+      <div class="bar"><span style="width: 70%;"></span></div>
+
+      <p>word (90%)</p>
+      <div class="bar"><span style="width: 90%;"></span></div>
+
+      <p>MySQL (60%)</p>
+      <div class="bar"><span style="width: 60%;"></span></div>
+
+      <p>Excel (60%)</p>
+      <div class="bar"><span style="width: 60%;"></span></div>
     </div>
 
-    <!-- Languages -->
+    <!-- Languajes -->
     <div class="box">
       <h2>Languages</h2>
       <p>Spanish (100%)</p>
       <div class="bar"><span style="width: 100%;"></span></div>
 
-      <p>English (70%)</p>
-      <div class="bar"><span style="width: 70%;"></span></div>
+      <p>English (50%)</p>
+      <div class="bar"><span style="width: 50%;"></span></div>
     </div>
 
-    <!-- Work Experience -->
+    <!-- experiencia laboral -->
     <div class="box">
       <h2>Work Experience</h2>
       <ul>
         <li><strong>Retail Assistant</strong> — Gonvill Bookstore, Guadalajara. <em>2024–2025</em><br/>
         Customer service and inventory support.</li>
-        <li><strong>Freelance Tech Support</strong> — Self-employed. <em>2023–2024</em><br/>
-        Helped with PC setup, OS installation, and simple web pages.</li>
+        <li><strong>store manager</strong> — gift shop <em>2023–2024</em><br/>
+        sale of gifts and details or sweets for special occasions.</li>
       </ul>
     </div>
 
-    <!-- Projects -->
+    <!-- Proyectos -->
     <div class="box">
       <h2>Project Experience</h2>
       <ul>
@@ -172,23 +174,24 @@
       </ul>
     </div>
 
-    <!-- Interests -->
+    <!-- Intereses -->
     <div class="box">
       <h2>Professional Interests</h2>
       <ul>
         <li>Web development</li>
-        <li>Databases</li>
-        <li>UI/UX design</li>
-        <li>Cybersecurity basics</li>
+        <li>application creation</li>
+        <li>creation and development of video games</li>
+        <li>Cybersecurity</li>
+        <li>artificial intelligence</li>
       </ul>
     </div>
 
-    <!-- References -->
+    <!-- Referencias -->
     <div class="box">
       <h2>Personal References</h2>
       <ul>
-        <li><strong>María González</strong> — University Mentor. maria.gonzalez@example.com · +52 33 9876 5432</li>
-        <li><strong>Carlos Pérez</strong> — Project Lead. carlos.perez@example.com · +52 33 1111 2222</li>
+        <li><strong>Daniel landa horta</strong> — University Mentor. daniel.landa@academicos.udg.mx</li>
+        <li><strong>Diego Olvera Zepeda</strong> — project partner.  diego.olvera4498@alumnos.udg.mx · +52 2924 7849</li>
       </ul>
     </div>
 
